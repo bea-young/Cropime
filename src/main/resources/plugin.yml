@@ -1,0 +1,4 @@
+name: Cropime
+version: '${project.version}'
+main: me.beayoung.cropime.Cropime
+api-version: '1.20'

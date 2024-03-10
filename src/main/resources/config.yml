@@ -1,0 +1,16 @@
+# General Settings
+general:
+  toggle-mode: true  # Placeholder: Will allow players to enable/disable Cropime with a command
+  interaction-mode: "shift-right-click" # Options: "look" or "shift-right-click"
+  update-interval: 20 # How often to update crop information display (in ticks)
+
+# Display Settings
+display:
+  display-type: "progress-bar" # Options: "progress-bar" or "text"
+  text-format: "Crop: {crop_type} - Growth: {percentage}%"
+
+# Progress Bar Settings (Only used if display-type is "progress-bar")
+progress-bar:
+  length: 20  # Character length of the progress bar
+  filled-char: "█"
+  empty-char: "░"
