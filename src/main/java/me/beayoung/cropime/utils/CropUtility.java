@@ -23,8 +23,8 @@ public class CropUtility {
     public static String getProgressBar(int percentage) {
         Cropime plugin = Cropime.getInstance();
         Integer progressBarLength = (Integer) plugin.getConfigValue("progress-bar.length");
-        Character filledChar = (Character) plugin.getConfigValue("progress-bar.filled-char");
-        Character emptyChar = (Character) plugin.getConfigValue("progress-bar.empty-char");
+        String filledChar = (String) plugin.getConfigValue("progress-bar.filled-char");
+        String emptyChar = (String) plugin.getConfigValue("progress-bar.empty-char");
 
         StringBuilder progressBar = new StringBuilder();
         for(int i = 0; i < progressBarLength; i++) {

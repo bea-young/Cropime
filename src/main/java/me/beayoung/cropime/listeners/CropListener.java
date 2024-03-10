@@ -18,7 +18,7 @@ public class CropListener implements Listener {
 
     @EventHandler
     public void onPlayerInteract(PlayerInteractEvent event) {
-        if(!plugin.getConfigValue("general.interaction-mode").equals("shift_right_click")) return;
+        if(!plugin.getConfigValue("general.interaction-mode").equals("shift-right-click")) return;
 
         if(!event.getAction().isRightClick()) return;
         if(event.getClickedBlock() == null) return;
